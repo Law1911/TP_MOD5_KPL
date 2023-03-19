@@ -10,6 +10,10 @@ namespace TP_MOD5_1302210106
             String X = "Stevent Rangga Ramaditya";
 
             halo.HaloUSer(X);
+
+            DataGeneric<String> data = new DataGeneric<string>("1302210106");
+
+            data.PrintData();
         }
     }
 }
